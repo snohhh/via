@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover marathons near you. Via — modern race discovery."
+    />
+    <title>via — marathons near you</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inclusive+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&family=Inter:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-mesh" aria-hidden="true"></div>
+    <div class="bg-noise" aria-hidden="true"></div>
+
+    <div class="wrap">
+      <header class="site-header">
+        <a href="#" class="logo" aria-label="via home">
+          <span class="logo-text">via</span>
+        </a>
+      </header>
+
+      <section class="hero hero--compact" aria-labelledby="hero-title">
+        <div class="hero-intro">
+          <h1 id="hero-title">
+            Find your next <span class="gradient-text">starting line</span>
+          </h1>
+          <p class="hero-lead">
+            Marathons near you — by distance, type, and cause.
+          </p>
+        </div>
+
+        <div class="panel panel--primary">
+          <div class="panel-row">
+            <button type="button" class="btn btn-primary" id="btn-locate">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path
+                  d="M12 22s7.5-6.38 7.5-12a7.5 7.5 0 1 0-15 0c0 5.62 7.5 12 7.5 12z"
+                  stroke="currentColor"
+                  stroke-width="1.75"
+                  stroke-linejoin="round"
+                />
+                <circle cx="12" cy="10" r="2.25" stroke="currentColor" stroke-width="1.75" />
+              </svg>
+              Use my location
+            </button>
+            <div class="search-field" role="search">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <circle cx="11" cy="11" r="7" />
+                <path d="M20 20l-3-3" />
+              </svg>
+              <input
+                type="search"
+                id="search-input"
+                placeholder="City or race name…"
+                autocomplete="off"
+                aria-label="Search by city or race name"
+                list="city-list"
+              />
+              <datalist id="city-list">
+                <option value="New York, NY"></option>
+                <option value="Los Angeles, CA"></option>
+                <option value="Chicago, IL"></option>
+                <option value="Austin, TX"></option>
+                <option value="Seattle, WA"></option>
+                <option value="Miami, FL"></option>
+                <option value="Boston, MA"></option>
+                <option value="Denver, CO"></option>
+                <option value="Portland, OR"></option>
+                <option value="London, UK"></option>
+                <option value="Berlin, DE"></option>
+                <option value="Paris, FR"></option>
+                <option value="Tokyo, JP"></option>
+                <option value="Sydney, AU"></option>
+                <option value="Toronto, CA"></option>
+              </datalist>
+            </div>
+            <button type="button" class="btn btn-ghost" id="btn-search-apply">Set city</button>
+          </div>
+
+          <div class="filter-groups">
+            <div class="filter-group">
+              <span class="filters-label">Distance</span>
+              <div class="filter-group__controls">
+                <label class="sr-only" for="radius-select">How far from you</label>
+                <select id="radius-select" aria-label="Maximum distance from your location">
+                  <option value="500">Within 500 km</option>
+                  <option value="1000">Within 1000 km</option>
+                  <option value="2000" selected>Within 2000 km</option>
+                  <option value="50000">Worldwide</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="filter-group">
+              <span class="filters-label">Type</span>
+              <div class="filter-group__controls filter-chips" role="group" aria-label="Race type">
+                <button type="button" class="chip is-on" data-group="type" data-value="all">All</button>
+                <button type="button" class="chip" data-group="type" data-value="marathon">Marathon</button>
+                <button type="button" class="chip" data-group="type" data-value="half">Half</button>
+                <button type="button" class="chip" data-group="type" data-value="other">Other</button>
+              </div>
+            </div>
+
+            <div class="filter-group">
+              <span class="filters-label">Cause</span>
+              <div class="filter-group__controls filter-chips" role="group" aria-label="Cause">
+                <button type="button" class="chip is-on" data-group="cause" data-value="all">All</button>
+                <button type="button" class="chip" data-group="cause" data-value="charity">Charity</button>
+                <button type="button" class="chip" data-group="cause" data-value="community">Community</button>
+                <button type="button" class="chip" data-group="cause" data-value="elite">Major / elite</button>
+                <button type="button" class="chip" data-group="cause" data-value="wellness">Wellness</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="status-bar">
+          <p id="geo-alert" class="alert" role="alert"></p>
+        </div>
+      </section>
+
+      <section class="races-section" aria-labelledby="races-heading">
+        <h2 id="races-heading" class="section-title">Races</h2>
+        <div id="race-grid" class="grid grid--cinematic"></div>
+      </section>
+
+      <footer class="site-footer">
+        <p>
+          Demo dataset for illustration — not affiliated with listed events. Photos via Unsplash.
+          Confirm dates on official sites before you register.
+        </p>
+      </footer>
+    </div>
+
+    <script src="app.js" defer></script>
+  </body>
+</html>
