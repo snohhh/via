@@ -14,6 +14,7 @@
   /* UI accent: sky blue → violet → pink */
   --accent-mix: linear-gradient(135deg, #38bdf8 0%, #60a5fa 28%, #a78bfa 66%, #f472b6 100%);
   --accent-mix-soft: linear-gradient(135deg, #93c5fd 0%, #c4b5fd 45%, #fbcfe8 100%);
+  --accent-mix-readable: linear-gradient(135deg, #0369a1 0%, #4338ca 48%, #be185d 100%);
   --accent-glow: 0 10px 36px rgba(56, 189, 248, 0.26), 0 2px 8px rgba(244, 114, 182, 0.1);
   --accent-text: #4f46e5;
   --radius-lg: 22px;
@@ -90,7 +91,7 @@ body {
 
 /* Header */
 .site-header {
-  padding: 1.25rem 0 0.75rem;
+  padding: 1.25rem 0 1.25rem;
 }
 
 .logo {
@@ -114,7 +115,7 @@ body {
 }
 
 .hero-intro {
-  margin-bottom: 0.85rem;
+  margin-bottom: 18px;
 }
 
 .hero h1 {
@@ -141,7 +142,7 @@ body {
     flex-wrap: wrap;
     align-items: baseline;
     gap: 0.35rem 1rem;
-    margin-bottom: 0.65rem;
+    margin-bottom: 18px;
   }
 
   .hero h1 {
@@ -156,10 +157,11 @@ body {
 }
 
 .gradient-text {
-  background: var(--accent-mix-soft);
+  background: var(--accent-mix);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.16);
 }
 
 .panel {
@@ -461,6 +463,7 @@ body {
   position: relative;
   aspect-ratio: 3 / 4;
   min-height: 280px;
+  background: linear-gradient(180deg, rgba(14, 116, 144, 0.22), rgba(15, 23, 42, 0.92));
 }
 
 .card-media img {
@@ -469,6 +472,7 @@ body {
   object-fit: cover;
   display: block;
   filter: saturate(1.08) contrast(1.06) brightness(0.98);
+  transform: scale(1.01);
 }
 
 .card-media__shade {

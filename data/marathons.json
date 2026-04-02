@@ -14,48 +14,6 @@
     "url": "https://www.nyrr.org/tcsnycmarathon"
   },
   {
-    "id": "chicago-2026",
-    "name": "Bank of America Chicago Marathon",
-    "city": "Chicago",
-    "country": "USA",
-    "lat": 41.8781,
-    "lng": -87.6298,
-    "date": "2026-10-11",
-    "distance": "Marathon",
-    "km": 42.195,
-    "cause": "elite",
-    "image": "https://images.unsplash.com/photo-1494522358652-f30e61a503f5?w=1200&q=85&auto=format&fit=crop",
-    "url": "https://www.chicagomarathon.com"
-  },
-  {
-    "id": "boston-2026",
-    "name": "Boston Marathon",
-    "city": "Boston",
-    "country": "USA",
-    "lat": 42.3601,
-    "lng": -71.0589,
-    "date": "2026-04-20",
-    "distance": "Marathon",
-    "km": 42.195,
-    "cause": "elite",
-    "image": "https://images.unsplash.com/photo-1617704548623-29cf2a1a0d44?w=1200&q=85&auto=format&fit=crop",
-    "url": "https://www.baa.org/races/boston-marathon"
-  },
-  {
-    "id": "la-2026",
-    "name": "Los Angeles Marathon",
-    "city": "Los Angeles",
-    "country": "USA",
-    "lat": 34.0522,
-    "lng": -118.2437,
-    "date": "2026-03-08",
-    "distance": "Marathon",
-    "km": 42.195,
-    "cause": "community",
-    "image": "https://images.unsplash.com/photo-1534190235440-6ba2f7d7d3e0?w=1200&q=85&auto=format&fit=crop",
-    "url": "https://lamarathon.com"
-  },
-  {
     "id": "sf-2026",
     "name": "San Francisco Marathon",
     "city": "San Francisco",
@@ -84,34 +42,6 @@
     "url": "https://youraustinmarathon.com"
   },
   {
-    "id": "miami-2026",
-    "name": "Life Time Miami Marathon",
-    "city": "Miami",
-    "country": "USA",
-    "lat": 25.7617,
-    "lng": -80.1918,
-    "date": "2026-02-01",
-    "distance": "Marathon",
-    "km": 42.195,
-    "cause": "wellness",
-    "image": "https://images.unsplash.com/photo-1514214246283-dfba2c2d4ac4?w=1200&q=85&auto=format&fit=crop",
-    "url": "https://www.themiamimarathon.com"
-  },
-  {
-    "id": "seattle-2026",
-    "name": "Seattle Marathon",
-    "city": "Seattle",
-    "country": "USA",
-    "lat": 47.6062,
-    "lng": -122.3321,
-    "date": "2026-11-29",
-    "distance": "Marathon",
-    "km": 42.195,
-    "cause": "community",
-    "image": "https://images.unsplash.com/photo-1502175353170-735c8d7cb8d1?w=1200&q=85&auto=format&fit=crop",
-    "url": "https://www.seattlemarathon.org"
-  },
-  {
     "id": "denver-2026",
     "name": "Denver Colfax Marathon",
     "city": "Denver",
@@ -124,48 +54,6 @@
     "cause": "charity",
     "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1200&q=85&auto=format&fit=crop",
     "url": "https://www.runcolfax.org"
-  },
-  {
-    "id": "dc-2026",
-    "name": "Credit Union Cherry Blossom Run",
-    "city": "Washington",
-    "country": "USA",
-    "lat": 38.9072,
-    "lng": -77.0369,
-    "date": "2026-04-12",
-    "distance": "10 mi",
-    "km": 16.09,
-    "cause": "charity",
-    "image": "https://images.unsplash.com/photo-1519677102883-8e588c380b2b?w=1200&q=85&auto=format&fit=crop",
-    "url": "https://www.cherryblossom.org"
-  },
-  {
-    "id": "london-2026",
-    "name": "TCS London Marathon",
-    "city": "London",
-    "country": "UK",
-    "lat": 51.5074,
-    "lng": -0.1278,
-    "date": "2026-04-26",
-    "distance": "Marathon",
-    "km": 42.195,
-    "cause": "charity",
-    "image": "https://images.unsplash.com/photo-1513635269976-596b1447fa0e?w=1200&q=85&auto=format&fit=crop",
-    "url": "https://www.tcslondonmarathon.com"
-  },
-  {
-    "id": "berlin-2026",
-    "name": "BMW Berlin Marathon",
-    "city": "Berlin",
-    "country": "Germany",
-    "lat": 52.52,
-    "lng": 13.405,
-    "date": "2026-09-27",
-    "distance": "Marathon",
-    "km": 42.195,
-    "cause": "elite",
-    "image": "https://images.unsplash.com/photo-1528728329052-2972f58dcb8e?w=1200&q=85&auto=format&fit=crop",
-    "url": "https://www.bmw-berlin-marathon.com"
   },
   {
     "id": "tokyo-2026",
@@ -210,34 +98,6 @@
     "url": "https://sydney.com.au"
   },
   {
-    "id": "toronto-2026",
-    "name": "TCS Toronto Waterfront Marathon",
-    "city": "Toronto",
-    "country": "Canada",
-    "lat": 43.6532,
-    "lng": -79.3832,
-    "date": "2026-10-18",
-    "distance": "Marathon",
-    "km": 42.195,
-    "cause": "community",
-    "image": "https://images.unsplash.com/photo-1517935706613-90ee304e0d0e?w=1200&q=85&auto=format&fit=crop",
-    "url": "https://www.torontowaterfrontmarathon.com"
-  },
-  {
-    "id": "portland-2026",
-    "name": "Portland Marathon",
-    "city": "Portland",
-    "country": "USA",
-    "lat": 45.5152,
-    "lng": -122.6784,
-    "date": "2026-10-04",
-    "distance": "Marathon",
-    "km": 42.195,
-    "cause": "wellness",
-    "image": "https://images.unsplash.com/photo-1547036969-23d11aaca287?w=1200&q=85&auto=format&fit=crop",
-    "url": "https://www.portlandmarathon.com"
-  },
-  {
     "id": "nashville-2026",
     "name": "St. Jude Rock 'n' Roll Nashville",
     "city": "Nashville",
@@ -250,20 +110,6 @@
     "cause": "charity",
     "image": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=1200&q=85&auto=format&fit=crop",
     "url": "https://www.runrocknroll.com/nashville"
-  },
-  {
-    "id": "atlanta-2026",
-    "name": "Publix Atlanta Marathon",
-    "city": "Atlanta",
-    "country": "USA",
-    "lat": 33.749,
-    "lng": -84.388,
-    "date": "2026-03-01",
-    "distance": "Marathon",
-    "km": 42.195,
-    "cause": "charity",
-    "image": "https://images.unsplash.com/photo-1577224682167-45f4e30d5862?w=1200&q=85&auto=format&fit=crop",
-    "url": "https://www.atlantamarathon.org"
   },
   {
     "id": "honolulu-2026",
